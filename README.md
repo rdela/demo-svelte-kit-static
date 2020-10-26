@@ -1,6 +1,8 @@
 # demo-svelte-kit-static
 
-Ultra-simple static Svelte Kit example
+This ultra-simple static Svelte Kit example is on GitHub at [rdela/demo-svelte-kit-static](https://github.com/rdela/demo-svelte-kit-static) and deployed to Netlify at [svelte-static.netlify.app](https://svelte-static.netlify.app/).
+
+[Watch Rich Harris’ talk on YouTube](https://www.youtube.com/watch?v=qSfdtmcZ4d0) for background and other examples of this brand new, still experimental way to build [Svelte](https://svelte.dev/) apps that reimagines [Sapper](https://sapper.svelte.dev/) with [Snowpack](https://www.snowpack.dev/) baked in. Imagine [Create Snowpack App’s Svelte Template](https://www.snowpack.dev/#create-snowpack-app-(csa)) with all of Sapper’s abilities plus serverless superpowers.
 
 ## create-svelte
 
