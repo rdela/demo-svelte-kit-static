@@ -15,8 +15,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 2em;
-	margin: 0.125em auto 0.375em;
+	font-size: 4rem;
+	font-weight: 400;
+	line-height: 1.1;
+	margin: 1rem auto 1.5rem;
+	max-width: 40rem;
+	text-transform: uppercase;
+}
+
+p {
+	max-width: 40rem;
+	margin: 2rem auto;
+	line-height: 1.35;
 }
 
 figcaption,
@@ -36,6 +46,14 @@ p {
 	margin: 0 auto 1em;
 }
 
+section {
+	margin-bottom: 1rem;
+}
+
+article {
+	text-align: left;
+}
+
 a {
 	color: rgb(141, 141, 245);
 }
@@ -46,6 +64,28 @@ a.selected {
 	color: #ff3e00;
 }
 
+button {
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0 0.5em 1em;
+	padding: 1rem;
+	color: #ff3e00;
+	background-color: rgba(255, 62, 0, 0.3);
+	border-radius: 2em;
+	border: 2px solid rgba(255, 62, 0, 0);
+	outline: none;
+	width: 6rem;
+	font-variant-numeric: tabular-nums;
+}
+
+button:focus {
+	border: 2px solid #ff3e00;
+}
+
+button:active {
+	background-color: rgba(255, 62, 0, 0.2);
+}
+
 code {
 	font-family: menlo, inconsolata, monospace;
 	font-size: calc(1em - 2px);
@@ -53,21 +93,6 @@ code {
 	background-color: #f0f0f0;
 	padding: 0.2em 0.4em;
 	border-radius: 2px;
-}
-
-h1 {
-  text-transform: uppercase;
-  font-size: 4rem;
-  font-weight: 400;
-  line-height: 1.1;
-  margin: 2rem auto;
-  max-width: 40rem;
-}
-
-p {
-  max-width: 40rem;
-  margin: 2rem auto;
-  line-height: 1.35;
 }
 
 .full-width {
@@ -82,7 +107,7 @@ p {
 }
 
 @media (max-width: 480px) {
-  h1 {
-    font-size: 2rem;
-  }
+	h1 {
+		font-size: 2rem;
+	}
 }
