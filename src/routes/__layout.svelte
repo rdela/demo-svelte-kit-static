@@ -1,12 +1,10 @@
 <script>
 	import Nav from '$lib/Nav.svelte';
-
-	export let segment;
 </script>
 
 
 <main>
-	<Nav  {segment}/>
+	<Nav/>
 	<slot></slot>
 </main>
 
